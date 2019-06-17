@@ -1,0 +1,173 @@
+/*
+* gingerCoder Stylesheet
+*
+*/
+
+
+
+@font-face {
+	font-family: 'King';
+	src: local('King'), local('King'), url('../fonts/king.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Steelworks';
+	src: local('Steelworks'), local('Steelworks'), url('../fonts/SteelworksVintage.ttf') format('truetype');
+}
+
+
+
+h1{
+	font: 32pt Steelworks, courier, arial;
+	color: #cc6600;
+}
+.img-polaroid{
+    -webkit-box-shadow: 5px 3px 4px 1px rgba(166,166,166,0.5);
+    box-shadow: 5px 3px 4px 1px rgba(166,166,166,0.5);
+}
+.blacktext{
+	color: #000000;
+}
+.gingertext{
+    color: #cc6600 !important;
+}
+
+h2{
+	font: 18pt King, courier, arial;
+}
+
+h3{
+	font: 16pt Steelworks, courier, arial;
+	color: #333333;
+}
+
+.centerinfo{
+    text-align: center;
+}
+
+
+
+
+.codeBlock{
+    display: block;
+    background: #0077b3;
+    color: #ffffff;
+    font: 10pt King, courier, arial;
+    border: 2px solid #005580;
+    padding: 15px;
+}
+
+.headingJumbo{
+    background: url("/img/cityscape.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.quotes{
+    display: block;
+    padding: 10px;
+    background: rgba(166,166,166,0.3);
+    font: 14pt King, courier, arial;
+    color: #ffffff;
+    -moz-border-radius-bottomleft: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+    -moz-border-radius-topleft: 25px;
+    -moz-border-radius-topleft: 25px;
+    -webkit-border-top-left-radius: 25px;
+    -moz-border-radius-topright: 35px;
+    -moz-border-radius-topright: 35px;
+    -webkit-border-top-right-radius: 35px;
+    border: 2px solid #ccc;
+}
+
+.gingerBlock{
+    display: block;
+    background: rgba(255,255,255,1);
+    padding: 10px;
+    color: #df8505;
+    /*font: 12pt King, Courier, Arial;*/
+    font: 11pt verdana, arial;
+    -moz-border-radius-topright: 25px;
+    border-top-right-radius: 25px;
+    -webkit-border-top-right-radius: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    border-bottom-left-radius: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+}
+
+.darkspan{
+    background: rgba(25,25,25,0.8);
+    font-size: 16pt;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+.darkspan a{
+    color: #ffffff;
+}
+.darkspan a.visited{
+    color: #ffffff;
+}
+
+.whiteSpan{
+    display: block;
+    background-color: #ffffff;
+    border-radius: 15px;
+    --moz-border-radius: 15px;
+    padding: 15px;
+}
+.borderSpan{
+    background: rgba(255,255,255,0.8);
+    padding: 15px;
+}
+
+.techlinks{
+	text-decoration: none;
+	color: #ffffff;
+	font: 10pt King, courier, arial;
+    padding: 2px;
+}
+.techlinks a{
+	color: #00CC00;
+}
+.techlinks a.visited{
+	color: #00CC00;
+}
+.techlinks a:hover{
+	color: #000000;
+	background: #00CC00;
+}
+
+.whiteText{
+	color: #ffffff;
+}
+
+.techContainer
+{
+    background: rgba(0,0,0,0.8);
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.img-polaroid
+{
+    max-width: 250px;
+    margin: 0 50px 20px 0;
+}
+.img-rounder
+{
+    border-radius: 15px;
+}
+
+.fadeOne
+{
+	color: #666666;
+}
+.fadeTwo
+{
+	color: #333333;
+}
